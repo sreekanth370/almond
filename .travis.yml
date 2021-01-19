@@ -10,7 +10,7 @@ node_js:
 jobs: 
   exclude:
     - arch: ppc64le
-      node_js: 0.10
+      node_js: "0.10"
 
 before_script:
   - node tests/server.js &
