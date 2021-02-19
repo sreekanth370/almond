@@ -4,8 +4,7 @@ arch:
  - ppc64le
 node_js:  
   - 0.10
-  - 14.0
-  - 15.0
+  - 4.0
   # dropped unsupport node versions on power arch
 jobs: 
   exclude:
